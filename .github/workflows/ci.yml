@@ -1,0 +1,13 @@
+name: '❤️‍🔥 CI @whatt-if/linters'
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-checks:
+    uses: whatt-if/actions/.github/workflows/checks.yml@main
+
+  publish:
+    uses: whatt-if/actions/.github/workflows/publish.yml@main
