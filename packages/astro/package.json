@@ -1,0 +1,19 @@
+{
+  "name": "@whatt-if/astro-linter",
+  "version": "0.0.0",
+  "description": "Specialized ESLint configuration for Astro projects, supporting component-based architecture and optimized import handling.",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "repository": "git@github.com:whatt-if/linters.git",
+  "private": false,
+  "scripts": {
+    "postinstall": "node ../../scripts/check-peer-dependencies.js"
+  },
+  "dependencies": {
+    "@whatt-if/react-ts-linter": "workspace:*",
+    "astro-eslint-parser": "^1.0.3",
+    "eslint-plugin-astro": "^1.3.0",
+    "prettier": "^3.3.3"
+  }
+}
