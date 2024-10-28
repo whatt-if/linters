@@ -1,10 +1,11 @@
 {
+  "private": true,
+  "version": "0.0.0",
   "name": "@whatt-if/linters",
   "description": "Monorepo for JavaScript and React code linters.",
   "repository": "git@github.com:whatt-if/linters.git",
   "author": "Dg <dgbragas.dev@gmail.com>",
   "license": "MIT",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
