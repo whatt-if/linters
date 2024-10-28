@@ -1,6 +1,6 @@
 {
   "name": "@whatt-if/prettier",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "Prettier configuration for consistent code formatting across JavaScript, Typescript and React projects.",
   "license": "MIT",
   "main": "index.js",
