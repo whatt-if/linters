@@ -1,0 +1,16 @@
+{
+  "name": "@whatt-if/prettier",
+  "version": "0.0.0",
+  "description": "Prettier configuration for consistent code formatting across JavaScript, Typescript and React projects.",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "repository": "git@github.com:whatt-if/linters.git",
+  "private": false,
+  "scripts": {
+    "postinstall": "node ../../scripts/check-peer-dependencies.js"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3"
+  }
+}
