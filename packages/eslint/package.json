@@ -1,0 +1,22 @@
+{
+  "name": "@whatt-if/eslint",
+  "version": "0.0.0",
+  "description": "Base ESLint configs mainly for TypeScript (with JavaScript support), providing some standardized rules and best practices.",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "repository": "git@github.com:whatt-if/linters.git",
+  "private": false,
+  "scripts": {
+    "postinstall": "node ../../scripts/check-peer-dependencies.js"
+  },
+  "dependencies": {
+    "@whatt-if/prettier": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.3.3"
+  }
+}
