@@ -27,6 +27,8 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
+        env:
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: yarn install
 
   publish:
