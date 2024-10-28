@@ -9,8 +9,7 @@
       "message": "chore(release): lerna publish"
     },
     "version": {
-      "conventionalCommits": true,
-      "createRelease": "github"
+      "conventionalCommits": true
     }
   }
 }
