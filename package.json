@@ -1,0 +1,19 @@
+{
+  "name": "@whatt-if/linters",
+  "description": "Monorepo for JavaScript and React code linters.",
+  "repository": "git@github.com:whatt-if/linters.git",
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish",
+    "version": "lerna version"
+  },
+  "dependencies": {
+    "lerna": "^8.1.8"
+  }
+}
