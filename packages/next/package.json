@@ -1,0 +1,17 @@
+{
+  "name": "@whatt-if/next-linter",
+  "version": "0.0.0",
+  "description": "Customized ESLint configuration for Next.js projects, enhancing SEO, accessibility, and server-side rendering support.",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "repository": "git@github.com:whatt-if/linters.git",
+  "private": false,
+  "scripts": {
+    "postinstall": "node ../../scripts/check-peer-dependencies.js"
+  },
+  "dependencies": {
+    "@whatt-if/react-ts-linter": "workspace:*",
+    "@next/eslint-plugin-next": "^15.0.1"
+  }
+}
