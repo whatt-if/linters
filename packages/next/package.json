@@ -7,9 +7,6 @@
   "author": "Dg <dgbragas.dev@gmail.com>",
   "repository": "git@github.com:whatt-if/linters.git",
   "private": false,
-  "scripts": {
-    "postinstall": "node ../../scripts/check-peer-dependencies.js"
-  },
   "dependencies": {
     "@next/eslint-plugin-next": "^15.0.1",
     "@whatt-if/react-ts-linter": "workspace:*"
