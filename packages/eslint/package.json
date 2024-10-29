@@ -7,9 +7,6 @@
   "author": "Dg <dgbragas.dev@gmail.com>",
   "repository": "git@github.com:whatt-if/linters.git",
   "private": false,
-  "scripts": {
-    "postinstall": "node ../../scripts/check-peer-dependencies.js"
-  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
