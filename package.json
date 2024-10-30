@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna run install",
     "publish": "lerna publish",
     "version": "lerna version"
   },
