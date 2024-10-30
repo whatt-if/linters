@@ -1,0 +1,11 @@
+name: '📦 CD @whatt-if/linters'
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  publish:
+    needs: install
+    if: github.event.pull_request.merged == true
+    uses: whatt-if/actions/.github/workflows/publish.yml@main
