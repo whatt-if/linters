@@ -5,7 +5,13 @@ on:
     types: [closed]
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
   publish:
-    needs: install
+    needs: setup
     if: github.event.pull_request.merged == true
     uses: whatt-if/actions/.github/workflows/publish.yml@main
