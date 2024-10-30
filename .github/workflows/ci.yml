@@ -2,11 +2,11 @@ name: '❤️‍🔥 CI @whatt-if/linters'
 
 on:
   pull_request:
-    branches:
-      - main
+    types: [opened, reopened]
 
 jobs:
   install:
+    if: ${{ github.event.pull_request.draft == false }}
     runs-on: ubuntu-latest
 
     steps:
@@ -30,6 +30,3 @@ jobs:
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: yarn install
-
-  publish:
-    uses: whatt-if/actions/.github/workflows/publish.yml@main
