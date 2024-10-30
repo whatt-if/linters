@@ -9,6 +9,6 @@
   "private": false,
   "dependencies": {
     "@next/eslint-plugin-next": "^15.0.1",
-    "@whatt-if/react-ts-linter": "workspace:*"
+    "@whatt-if/react-ts-linter": "0.0.1-alpha.0"
   }
 }
