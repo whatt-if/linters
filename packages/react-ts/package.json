@@ -1,6 +1,6 @@
 {
   "name": "@whatt-if/react-ts-linter",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1",
   "description": "Extended ESLint configuration for TypeScript React, focusing on code quality, performance, and accessibility.",
   "license": "MIT",
   "main": "index.js",
@@ -8,7 +8,7 @@
   "repository": "git@github.com:whatt-if/linters.git",
   "private": false,
   "dependencies": {
-    "@whatt-if/eslint": "0.0.1-alpha.0",
+    "@whatt-if/eslint": "^0.0.1",
     "eslint-plugin-import-helpers": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.2",

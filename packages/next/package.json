@@ -1,6 +1,6 @@
 {
   "name": "@whatt-if/next-linter",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1",
   "description": "Customized ESLint configuration for Next.js projects, enhancing SEO, accessibility, and server-side rendering support.",
   "license": "MIT",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "private": false,
   "dependencies": {
     "@next/eslint-plugin-next": "^15.0.1",
-    "@whatt-if/react-ts-linter": "0.0.1-alpha.0"
+    "@whatt-if/react-ts-linter": "^0.0.1"
   }
 }
