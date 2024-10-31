@@ -5,7 +5,7 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "ignoreChanges": ["**/*.md"],
+      "ignoreChanges": ["**/*.md", "@whatt-if/linters"],
       "message": "chore(release): lerna publish"
     },
     "version": {
