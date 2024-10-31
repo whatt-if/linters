@@ -1,12 +1,15 @@
 {
+  "private": false,
   "name": "@whatt-if/react-ts-linter",
   "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Extended ESLint configuration for TypeScript React, focusing on code quality, performance, and accessibility.",
   "license": "MIT",
   "main": "index.js",
   "author": "Dg <dgbragas.dev@gmail.com>",
   "repository": "git@github.com:whatt-if/linters.git",
-  "private": false,
   "dependencies": {
     "@whatt-if/eslint": "^0.0.1",
     "eslint-plugin-import-helpers": "^2.0.1",
