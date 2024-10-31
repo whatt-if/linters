@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@whatt-if/linters",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Monorepo for JavaScript and React code linters.",
   "repository": "git@github.com:whatt-if/linters.git",
   "author": "Dg <dgbragas.dev@gmail.com>",
@@ -9,11 +9,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
-    "bootstrap": "lerna run install",
-    "publish": "lerna publish",
-    "version": "lerna version"
-  },
   "dependencies": {
     "lerna": "^6.0.0"
   }
