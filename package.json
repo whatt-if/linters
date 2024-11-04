@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "@whatt-if/linters",
+  "version": "1.0.0",
+  "description": "Monorepo for JavaScript and React linters, providing standardized configurations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatt-if/linters.git"
+  },
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.2.3"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.9"
+  },
+  "scripts": {
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
