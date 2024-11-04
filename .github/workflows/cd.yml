@@ -1,0 +1,24 @@
+name: '📦 CD @whatt-if/linters'
+
+permissions:
+  contents: write
+  packages: write
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+  publish:
+    needs: setup
+    uses: whatt-if/actions/.github/workflows/publish.yml@main
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
