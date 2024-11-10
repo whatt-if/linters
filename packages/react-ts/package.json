@@ -1,6 +1,6 @@
 {
   "name": "@whatt-if/react-ts-linter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extended ESLint configuration for TypeScript React, focusing on code quality, performance, and accessibility.",
   "license": "MIT",
   "main": "index.js",

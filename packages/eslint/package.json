@@ -1,6 +1,6 @@
 {
   "name": "@whatt-if/eslint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Base ESLint configs mainly for TypeScript (with JavaScript support), providing some standardized rules and best practices.",
   "license": "MIT",
   "main": "index.js",

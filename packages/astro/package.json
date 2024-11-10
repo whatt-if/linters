@@ -1,6 +1,6 @@
 {
   "name": "@whatt-if/astro-linter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Specialized ESLint configuration for Astro projects, supporting component-based architecture and optimized import handling.",
   "license": "MIT",
   "main": "index.js",
