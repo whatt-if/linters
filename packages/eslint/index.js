@@ -21,7 +21,7 @@ module.exports = {
       {
         'newlines-between': 'always',
         groups: [['builtin', 'external', 'internal']],
-        alphabetize: { order: 'asc', ignoreCase: true },
+        alphabetize: { order: 'asc', caseInsensitive: true },
       },
     ],
     'import/extensions': [
